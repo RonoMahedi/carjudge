@@ -1,0 +1,67 @@
+
+/*footer*/
+.page-footer{
+  background:#535c68;
+  padding-top: 10px;
+}
+.footer{
+  background:#57606f;
+  height: 10vh;
+}
+.footer-icon{
+  font-size: 2rem;
+  text-decoration: none;
+  color: #D6A2E8;
+  transition: all 1s ease-in-out;
+  margin-top: 15px;
+  padding: 10px;
+}
+.footer-icon:hover{
+  color: var(--mainBlue);
+}
+
+.footer-copyright{
+  background: #2f3542;
+  color:white!important;
+}
+
+.footer-copyright > a {
+  color:#7ed6df!important;
+  text-decoration: none;
+}
+.text-footer >a{
+  text-decoration: none;
+}
+/*end footer*/
+
+
+
+/*******************large devices only*****************/
+@media (min-width:1200px) {
+
+}
+
+/*******************medium devices only*****************/
+@media (min-width:992px) and (max-width:1199px) {
+
+}
+
+/*******************small devices only*****************/
+@media (min-width:768px) and (max-width:991px) {
+
+
+}
+
+/*******************extra small devices only*****************/
+@media (max-width:767px) {
+
+
+}
+
+
+/*******************super extra small devices only*****************/
+@media (max-width:479px) {
+
+
+
+}

@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+
+:root{
+  --mainBlue:#3498db;
+  --transparentBlue:rgba(64,172,241,0.7);
+  --mainWhite:#FFFFFF;
+  --mainBlack:#292F36;
+  --mainGrey:rgba(216,214,214);
+  --mainYellow:#f1c40f;
+}
+
+
+
+
+
+
+
+
+.adv-search{
+  float:right;
+  margin-top:2px;
+}
+.adv-search > a{
+  text-decoration: none;
+  margin-top:2px;
+}
+.input-group-text{
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+/*end social icons*/
+
+
+
+
+
+
+/* slider */
+.height-max{
+    min-height: calc(100vh - 85px);
+    background: url('../images/toyota_jeep.jpg');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.coverpage{
+  clip-path:polygon(0 0,100% 0,100% 95%,50% 100%,0 95%);
+  color: var(--mainWhite);
+}
+.text-place{
+  margin-top:250px;
+}
+.text-color{
+  color: #686de0;
+}
+/*end slider*/
+
+
+/*section title*/
+.section-title-special{
+  background: var(--transparentBlue);
+  color: var(--mainWhite);
+  padding: 0.5rem 2rem;
+  clip-path: polygon(10% 0,100% 0, 90% 100%, 0 100%);
+
+}
+/*end section title*/
+
+
+/*skills*/
+.skills-underline-blue{
+  width: 5rem;
+  height: 0.3rem;
+  background: var(--info);
+  margin: 1rem auto;
+  border-radius: 5px;
+}
+.skills-underline-white{
+  width: 5rem;
+  height: 0.3rem;
+  background: var(--white);
+  margin: 1rem auto;
+  border-radius: 5px;
+}
+/*end skills*/
+
+
+
+
+/*question*/
+.question{
+  background: url('../images/question.jpg')center/cover fixed no-repeat;
+}
+.question-grey{
+  background: rgba(79,109,122,0.75);
+}
+.question-icon{
+  font-size: 4rem;
+  color: var(--mainBlue);
+  transition: all 0.5s ease-in-out;
+}
+.question-icon:hover{
+  transform: translateY(-10%);
+  color: var(--mainBlue);
+}
+.question-info{
+  color: var(--mainWhite);
+}
+/*end question*/
+
+
+
+
+
+/*feature part*/
+.feature{
+  background: #ECF0F1;
+}
+.car-card{
+  border-radius: 0!important;
+}
+.car-img{
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.car-value{
+  background: var(--mainBlue);
+  color: var(--mainWhite);
+  clip-path:polygon(15% 0,85% 0,100% 100%,0 100%);
+  transition: all 1s linear;
+}
+.car-value:hover{
+  clip-path:polygon(0% 0,100% 0,100% 100%,0 100%);
+}
+.car-price{
+  font-size: 0.8em;
+}
+/*end feature*/
+
+
+
+
+
+/*review*/
+.ghap-review{
+  border-width: 2px;
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*super cars*/
+.super-car-text > h6{
+  text-align: center;
+  margin-top: 5px;
+}
+.super-car-img{
+  height: 160px;
+}
+/*end super cars*/
+
+
+
+
+/*Email subscribe*/
+.email-image{
+  height:35vh;
+  background: url('../images/email.jpg')center/cover fixed no-repeat;
+}
+
+.form-check{
+  color: var(--mainWhite);
+}
+.form-check-label{
+  font-size: 12px!important;
+  cursor: pointer;
+}
+.email-button{
+  background:var(--transparentBlue);
+  transition: all 1s linear;
+}
+
+/*end Email subscribe*/

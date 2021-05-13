@@ -1,0 +1,46 @@
+
+/*heading part*/
+
+.navbar {
+    margin-bottom: 0px!important;
+}
+
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+  border: 1px solid #61122f;
+}
+
+
+/*******************large devices only*****************/
+@media (min-width:1200px) {
+
+}
+
+/*******************medium devices only*****************/
+@media (min-width:992px) and (max-width:1199px) {
+
+}
+
+/*******************small devices only*****************/
+@media (min-width:768px) and (max-width:991px) {
+
+}
+
+/*******************extra small devices only*****************/
+@media (max-width:767px) {
+    .header-img{
+    height: 30px;
+    weight: 30px;
+    margin-top: 0px;
+}
+
+}
+
+
+/*******************super extra small devices only*****************/
+@media (max-width:479px) {
+
+
+
+}

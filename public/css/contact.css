@@ -1,0 +1,70 @@
+/*contact form start*/
+.contact {
+    margin-top: 55px;
+}
+
+.contact-sign {
+    margin-bottom: 12px;
+}
+
+.contact_section {
+    margin-top: 80px;
+    font-weight: bold;
+    font-size: 2.8em;
+    text-align: center;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.call-contact .call {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: var(--mainBlack);
+}
+
+.contact-time {
+    font-size: 16px;
+}
+
+.mail-contact {
+    margin-top: 20px;
+}
+
+.call-font-color {
+    color: #44bd32;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.call-number {
+    font-size: 40px;
+}
+
+.email-link>a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.contact-title {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.text-size {
+    font-size: 20px !important;
+}
+
+.error {
+    color: red;
+    font-weight: 400;
+    display: block;
+    padding: 6px 0;
+    font-size: 14px;
+}
+
+.form-control.error {
+    border-color: red;
+    padding: .375rem .75rem;
+}
+
+/*contact form end*/

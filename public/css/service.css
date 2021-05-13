@@ -1,0 +1,113 @@
+
+/*service part*/
+.service{
+  margin-top:100px;
+}
+
+
+.service-head{
+  margin-top:10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+.car-service-content{
+  list-style: none;
+}
+.car-service-content > li{
+  margin:10px;
+  font-size: 16px;
+}
+.service-font-color{
+  color:#44bd32;
+}
+.car-service-image{
+  margin-top: -70px;
+  height: 280px;
+  width:330px;
+  margin-bottom:30px;
+}
+
+.service-car-card{
+  background:#f1f2f6;
+  text-align: center;
+  border-radius: 4px;
+  transition: all 1s linear;
+}
+
+.service-car-card:hover,.service-car-card > a:hover,.service-car-card > i:hover{
+  background:#DC143C;
+  color: white;
+  transition: all 1s linear;
+}
+.service-car-card > a{
+  text-decoration: none;
+  color:black;
+  transition: all 1s linear;
+}
+.font-size {
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+/*end service part*/
+
+
+
+/*******************large devices only*****************/
+@media (min-width:1200px) {
+
+}
+
+/*******************medium devices only*****************/
+@media (min-width:992px) and (max-width:1199px) {
+  .car-service-image{
+    margin-top: 0px;
+    height: 250px;
+    width:270px;
+    margin-bottom:30px;
+  }
+  .car-service-content > li{
+    margin:10px;
+    font-size: 14px;
+  }
+
+}
+
+/*******************small devices only*****************/
+@media (min-width:768px) and (max-width:991px) {
+  .car-service-image{
+    margin-top: 25px;
+  }
+
+}
+
+/*******************extra small devices only*****************/
+@media (max-width:767px) {
+
+    .car-service-image{
+      margin-top: 50px;
+    }
+    .service-car-card{
+      margin-bottom: 20px;
+    }
+    .texting{
+      font-size: 30px;
+    }
+
+}
+
+
+/*******************super extra small devices only*****************/
+@media (max-width:479px) {
+  .texting{
+    font-size: 20px;
+  }
+  .car-service-image{
+    margin-top: 20px;
+    height: 170px;
+    width:180px;
+  }
+
+}

@@ -1,0 +1,62 @@
+
+
+/*brand*/
+
+.inventory{
+  margin-top:70px;
+}
+.color{
+  background: #ecf0f1;
+  padding: 30px;
+}
+
+.car-img-in{
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  height: 110px;
+  width: 110px;
+  padding: 10px;
+}
+
+/*end brand*/
+
+
+
+
+/*******************large devices only*****************/
+@media (min-width:1200px) {
+
+}
+
+/*******************medium devices only*****************/
+@media (min-width:992px) and (max-width:1199px) {
+
+}
+
+/*******************small devices only*****************/
+@media (min-width:768px) and (max-width:991px) {
+
+
+}
+
+/*******************extra small devices only*****************/
+@media (max-width:767px) {
+  .texting{
+    font-size: 30px;
+  }
+}
+
+
+/*******************super extra small devices only*****************/
+@media (max-width:479px) {
+  .car-img-in{
+    height: 55px;
+    width: 55px;
+    padding: 5px;
+  }
+  .texting{
+    font-size: 20px;
+  }
+
+
+}
